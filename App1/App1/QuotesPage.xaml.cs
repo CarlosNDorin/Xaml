@@ -22,10 +22,9 @@ namespace App1
 
         public QuotesPage ()
 		{
-            
-			InitializeComponent ();
+            InitializeComponent ();
             currentQuote.Text = _quotes[_index];
-            slider.Value = slider.Minimum;
+            slider.Value = 20;
         }
 
         private void Button_Clicked(object sender, EventArgs e)
