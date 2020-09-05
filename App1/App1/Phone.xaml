@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Phone">
+    <ContentPage.Content>
+
+        <StackLayout BackgroundColor="#354242">
+
+            <Label Text="1234"
+                   TextColor="White"
+                   FontSize="50"
+                   HorizontalOptions="Center"/>
+            
+            <StackLayout>
+                <Grid
+                    RowSpacing="10" ColumnSpacing="10" Padding="40">
+                                      
+                    <Button Grid.Row="0" Grid.Column="0" Text="1" BorderRadius="20" TextColor="#28282c" FontSize="20" BackgroundColor="#fff"/>
+                    <Button Grid.Row="0" Grid.Column="1" Text="2" BorderRadius="20" TextColor="#28282c" FontSize="20" BackgroundColor="#fff"/>
+                    <Button Grid.Row="0" Grid.Column="2" Text="3" BorderRadius="20" TextColor="#28282c" FontSize="20" BackgroundColor="#fff"/>
+                    <Button Grid.Row="1" Grid.Column="0" Text="4" BorderRadius="20" TextColor="#28282c" FontSize="20" BackgroundColor="#fff"/>
+                    <Button Grid.Row="1" Grid.Column="1" Text="5" BorderRadius="20" TextColor="#28282c" FontSize="20" BackgroundColor="#fff"/>
+                    <Button Grid.Row="1" Grid.Column="2" Text="6" BorderRadius="20" TextColor="#28282c" FontSize="20" BackgroundColor="#fff"/>
+                    <Button Grid.Row="2" Grid.Column="0" Text="7" BorderRadius="20" TextColor="#28282c" FontSize="20" BackgroundColor="#fff"/>
+                    <Button Grid.Row="2" Grid.Column="1" Text="8" BorderRadius="20" TextColor="#28282c" FontSize="20" BackgroundColor="#fff"/>
+                    <Button Grid.Row="2" Grid.Column="2" Text="9" BorderRadius="20" TextColor="#28282c" FontSize="20" BackgroundColor="#fff"/>
+                    <Button Grid.Row="3" Grid.Column="1" Text="0" BorderRadius="20" TextColor="#28282c" FontSize="20" BackgroundColor="#fff"/>
+                    <Button Grid.Row="4" Grid.ColumnSpan="3" Text="Dial" BorderRadius="20" TextColor="#28282c" FontSize="20" BackgroundColor="#96ca2d"/>
+                </Grid>
+
+            </StackLayout>
+        </StackLayout>
+    
+    </ContentPage.Content>
+</ContentPage>

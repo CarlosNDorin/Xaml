@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.StackPageII">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <StackLayout Padding="1">
+                <Label Text="nyc_photographer" />
+            </StackLayout>
+
+            <Image Source="http://lorempixel.com/1920/1080/nature/3/" />
+
+            <StackLayout 
+                Orientation="Horizontal"
+                Padding="1"
+            >
+
+                <Button Text="Like" 
+                        FontSize="10"
+                        BackgroundColor="Transparent" 
+                        HeightRequest="40" 
+                        WidthRequest="50"
+                        />
+                <Button Text="Comment" 
+                        FontSize="10"
+                        BackgroundColor="Transparent" 
+                        HeightRequest="40" 
+                        WidthRequest="80"/>
+                <Button Text="Share" 
+                        FontSize="10"
+                        BackgroundColor="Transparent" 
+                        HeightRequest="40" 
+                        WidthRequest="70"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

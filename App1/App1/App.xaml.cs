@@ -12,7 +12,11 @@ namespace App1
             InitializeComponent();
 
             //MainPage = new Greet();
-            MainPage = new QuotesPage();
+            //MainPage = new QuotesPage();
+            //MainPage = new StackPage();
+            //MainPage = new StackPageII();
+            //MainPage = new Grid();
+            MainPage = new Phone();
         }
 
         protected override void OnStart()
